@@ -1,0 +1,870 @@
+[
+    {
+        "name": "Gaming Keyboard",
+        "description": "Mechanical keyboard with RGB lighting.",
+        "price": 120,
+        "stock": 50,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with 1600 DPI.",
+        "price": 40,
+        "stock": 150,
+        "category": "Mice"
+    },
+    {
+        "name": "27-inch Monitor",
+        "description": "4K Ultra HD monitor with HDR support.",
+        "price": 350,
+        "stock": 30,
+        "category": "Monitors"
+    },
+    {
+        "name": "Gaming Chair",
+        "description": "Comfortable chair with lumbar support for gamers.",
+        "price": 200,
+        "stock": 20,
+        "category": "Accessories"
+    },
+    {
+        "name": "External SSD 1TB",
+        "description": "Portable SSD with USB-C interface.",
+        "price": 150,
+        "stock": 100,
+        "category": "Storage"
+    },
+    {
+        "name": "Webcam HD",
+        "description": "1080p webcam with built-in microphone.",
+        "price": 70,
+        "stock": 75,
+        "category": "Accessories"
+    },
+    {
+        "name": "Mechanical Keyboard",
+        "description": "Compact keyboard with Cherry MX switches.",
+        "price": 100,
+        "stock": 60,
+        "category": "Keyboards"
+    },
+    {
+        "name": "USB Hub 3.0",
+        "description": "7-port USB hub with fast charging.",
+        "price": 25,
+        "stock": 200,
+        "category": "Accessories"
+    },
+    {
+        "name": "Graphics Card RTX 3080",
+        "description": "High-performance graphics card for gaming and design.",
+        "price": 800,
+        "stock": 15,
+        "category": "Components"
+    },
+    {
+        "name": "Gaming Headset",
+        "description": "Noise-canceling headphones with surround sound.",
+        "price": 120,
+        "stock": 85,
+        "category": "Accessories"
+    },
+    {
+        "name": "Laptop Cooling Pad",
+        "description": "Cooling pad with adjustable fan speed.",
+        "price": 35,
+        "stock": 120,
+        "category": "Accessories"
+    },
+    {
+        "name": "External Hard Drive 2TB",
+        "description": "High-capacity external hard drive with USB 3.0.",
+        "price": 90,
+        "stock": 95,
+        "category": "Storage"
+    },
+    {
+        "name": "Mouse Pad XXL",
+        "description": "Extra-large mouse pad with non-slip base.",
+        "price": 20,
+        "stock": 300,
+        "category": "Accessories"
+    },
+    {
+        "name": "Power Supply 650W",
+        "description": "Reliable power supply unit with 80+ Bronze certification.",
+        "price": 70,
+        "stock": 40,
+        "category": "Components"
+    },
+    {
+        "name": "27-inch Curved Monitor",
+        "description": "Curved gaming monitor with 144Hz refresh rate.",
+        "price": 400,
+        "stock": 25,
+        "category": "Monitors"
+    },
+    {
+        "name": "CPU Cooler",
+        "description": "High-performance air cooler for CPUs.",
+        "price": 50,
+        "stock": 70,
+        "category": "Components"
+    },
+    {
+        "name": "RGB Light Strip",
+        "description": "Customizable RGB LED light strip for setups.",
+        "price": 15,
+        "stock": 400,
+        "category": "Accessories"
+    },
+    {
+        "name": "Gaming Desk",
+        "description": "Desk with cable management and headphone hanger.",
+        "price": 250,
+        "stock": 10,
+        "category": "Accessories"
+    },
+    {
+        "name": "Internal SSD 1TB",
+        "description": "High-speed SSD with NVMe interface.",
+        "price": 120,
+        "stock": 110,
+        "category": "Storage"
+    },
+    {
+        "name": "Wireless Charger",
+        "description": "Fast wireless charger for mobile devices.",
+        "price": 30,
+        "stock": 180,
+        "category": "Accessories"
+    },
+    {
+        "name": "Gaming PC Case",
+        "description": "Case with tempered glass and RGB lighting.",
+        "price": 100,
+        "stock": 50,
+        "category": "Components"
+    },
+    {
+        "name": "4K Streaming Webcam",
+        "description": "Ultra HD webcam for streaming and video calls.",
+        "price": 120,
+        "stock": 65,
+        "category": "Accessories"
+    },
+    {
+        "name": "High-Speed HDMI Cable",
+        "description": "6-foot HDMI cable for 4K displays.",
+        "price": 10,
+        "stock": 500,
+        "category": "Accessories"
+    },
+    {
+        "name": "Surge Protector",
+        "description": "6-outlet surge protector with USB charging.",
+        "price": 25,
+        "stock": 250,
+        "category": "Accessories"
+    },
+    {
+        "name": "16GB DDR4 RAM",
+        "description": "High-speed memory for gaming and multitasking.",
+        "price": 80,
+        "stock": 70,
+        "category": "Components"
+    },
+    {
+        "name": "Compact Mechanical Keyboard",
+        "description": "Portable mechanical keyboard with wireless support.",
+        "price": 110,
+        "stock": 40,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Vertical Mouse",
+        "description": "Ergonomic vertical mouse with programmable buttons.",
+        "price": 50,
+        "stock": 90,
+        "category": "Mice"
+    },
+    {
+        "name": "49-inch Ultrawide Monitor",
+        "description": "Ultrawide monitor with dual QHD resolution.",
+        "price": 1000,
+        "stock": 5,
+        "category": "Monitors"
+    },
+    {
+        "name": "Cable Management Kit",
+        "description": "Kit with sleeves and clips for organized cables.",
+        "price": 20,
+        "stock": 300,
+        "category": "Accessories"
+    },
+    {
+        "name": "Portable Monitor",
+        "description": "15.6-inch portable monitor with USB-C.",
+        "price": 200,
+        "stock": 50,
+        "category": "Monitors"
+    },
+    {
+        "name": "Laptop Stand",
+        "description": "Adjustable aluminum stand for laptops.",
+        "price": 30,
+        "stock": 150,
+        "category": "Accessories"
+    },
+    {
+        "name": "500GB Portable SSD",
+        "description": "Compact SSD with high-speed data transfer.",
+        "price": 90,
+        "stock": 120,
+        "category": "Storage"
+    },
+    {
+        "name": "Gaming Desk Pad",
+        "description": "Large desk pad with RGB lighting.",
+        "price": 40,
+        "stock": 150,
+        "category": "Accessories"
+    },
+    {
+        "name": "Streaming Microphone",
+        "description": "USB microphone with cardioid pickup pattern.",
+        "price": 100,
+        "stock": 60,
+        "category": "Accessories"
+    },
+    {
+        "name": "High-Speed HDMI Cable1",
+        "description": "6-foot HDMI cable for 4K displays.",
+        "price": 10,
+        "stock": 500,
+        "category": "Accessories"
+    },
+    {
+        "name": "Surge Protector1",
+        "description": "6-outlet surge protector with USB charging.",
+        "price": 25,
+        "stock": 250,
+        "category": "Accessories"
+    },
+    {
+        "name": "16GB DDR4 RAM1",
+        "description": "High-speed memory for gaming and multitasking.",
+        "price": 80,
+        "stock": 70,
+        "category": "Components"
+    },
+    {
+        "name": "Compact Mechanical Keyboard1",
+        "description": "Portable mechanical keyboard with wireless support.",
+        "price": 110,
+        "stock": 40,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Vertical Mouse1",
+        "description": "Ergonomic vertical mouse with programmable buttons.",
+        "price": 50,
+        "stock": 90,
+        "category": "Mice"
+    },
+    {
+        "name": "49-inch Ultrawide Monitor1",
+        "description": "Ultrawide monitor with dual QHD resolution.",
+        "price": 1000,
+        "stock": 5,
+        "category": "Monitors"
+    },
+    {
+        "name": "Cable Management Kit1",
+        "description": "Kit with sleeves and clips for organized cables.",
+        "price": 20,
+        "stock": 300,
+        "category": "Accessories"
+    },
+    {
+        "name": "Portable Monitor1",
+        "description": "15.6-inch portable monitor with USB-C.",
+        "price": 200,
+        "stock": 50,
+        "category": "Monitors"
+    },
+    {
+        "name": "Laptop Stand1",
+        "description": "Adjustable aluminum stand for laptops.",
+        "price": 30,
+        "stock": 150,
+        "category": "Accessories"
+    },
+    {
+        "name": "500GB Portable SSD1",
+        "description": "Compact SSD with high-speed data transfer.",
+        "price": 90,
+        "stock": 120,
+        "category": "Storage"
+    },
+    {
+        "name": "Gaming Desk Pad1",
+        "description": "Large desk pad with RGB lighting.",
+        "price": 40,
+        "stock": 150,
+        "category": "Accessories"
+    },
+    {
+        "name": "Streaming Microphone1",
+        "description": "USB microphone with cardioid pickup pattern.",
+        "price": 100,
+        "stock": 60,
+        "category": "Accessories"
+    },
+    {
+        "name": "Monitor UltraSharp 24\"",
+        "description": "Monitor Full HD con panel IPS y tiempo de respuesta rápido.",
+        "price": 250,
+        "stock": 45,
+        "category": "Monitores"
+    },
+    {
+        "name": "Teclado Mecánico RGB X-Pro",
+        "description": "Teclado mecánico con switches personalizados y retroiluminación RGB.",
+        "price": 120,
+        "stock": 30,
+        "category": "Periféricos"
+    },
+    {
+        "name": "Mouse Gamer M500",
+        "description": "Mouse ergonómico con 6 botones programables y DPI ajustable.",
+        "price": 60,
+        "stock": 75,
+        "category": "Periféricos"
+    },
+    {
+        "name": "Laptop ProBook 14\"",
+        "description": "Portátil de alto rendimiento con procesador i7 y 16GB de RAM.",
+        "price": 1200,
+        "stock": 20,
+        "category": "Laptops"
+    },
+    {
+        "name": "Fuente de Alimentación 750W Gold",
+        "description": "Fuente modular certificada 80+ Gold para equipos de alto consumo.",
+        "price": 110,
+        "stock": 50,
+        "category": "Componentes"
+    },
+    {
+        "name": "Placa de Video GTX 3060 Ti",
+        "description": "Tarjeta gráfica con 8GB GDDR6 ideal para gaming y diseño.",
+        "price": 500,
+        "stock": 25,
+        "category": "Componentes"
+    },
+    {
+        "name": "Auriculares Inalámbricos ZX-3",
+        "description": "Auriculares Bluetooth con cancelación de ruido activa.",
+        "price": 90,
+        "stock": 40,
+        "category": "Periféricos"
+    },
+    {
+        "name": "Disco SSD 1TB NVMe",
+        "description": "Almacenamiento ultra rápido para optimizar tu sistema.",
+        "price": 150,
+        "stock": 60,
+        "category": "Almacenamiento"
+    },
+    {
+        "name": "Router Wi-Fi 6",
+        "description": "Router de última generación con soporte para múltiples dispositivos.",
+        "price": 200,
+        "stock": 35,
+        "category": "Redes"
+    },
+    {
+        "name": "Cámara Web Full HD Pro",
+        "description": "Cámara con resolución 1080p y micrófono integrado.",
+        "price": 80,
+        "stock": 50,
+        "category": "Periféricos"
+    },
+    {
+        "name": "Impresora Multifunción Laser",
+        "description": "Impresora con escáner y copiadora de alta velocidad.",
+        "price": 300,
+        "stock": 20,
+        "category": "Periféricos"
+    },
+    {
+        "name": "Docking Station USB-C",
+        "description": "Base con múltiples puertos para laptops USB-C.",
+        "price": 100,
+        "stock": 35,
+        "category": "Accesorios"
+    },
+    {
+        "name": "Procesador Ryzen 7 5800X",
+        "description": "Procesador de 8 núcleos y 16 hilos para alto rendimiento.",
+        "price": 400,
+        "stock": 30,
+        "category": "Componentes"
+    },
+    {
+        "name": "Cooler Líquido RGB 240mm",
+        "description": "Sistema de refrigeración líquida para CPUs de alto rendimiento.",
+        "price": 120,
+        "stock": 40,
+        "category": "Componentes"
+    },
+    {
+        "name": "Caja ATX con Ventilación",
+        "description": "Chasis ATX con vidrio templado y soporte para múltiples ventiladores.",
+        "price": 80,
+        "stock": 25,
+        "category": "Componentes"
+    },
+    {
+        "name": "Tarjeta Madre Z590",
+        "description": "Motherboard para procesadores Intel de 11ª generación.",
+        "price": 180,
+        "stock": 15,
+        "category": "Componentes"
+    },
+    {
+        "name": "Memoria RAM DDR4 16GB",
+        "description": "Módulo de memoria de alta velocidad con disipador integrado.",
+        "price": 90,
+        "stock": 70,
+        "category": "Componentes"
+    },
+    {
+        "name": "Cable HDMI 4K 2m",
+        "description": "Cable HDMI compatible con resoluciones 4K y HDR.",
+        "price": 15,
+        "stock": 100,
+        "category": "Accesorios"
+    },
+    {
+        "name": "Switch Ethernet 8 Puertos",
+        "description": "Switch compacto para redes domésticas o pequeñas oficinas.",
+        "price": 50,
+        "stock": 45,
+        "category": "Redes"
+    },
+    {
+        "name": "Tablet 10\" Pro",
+        "description": "Tablet con pantalla de alta resolución y almacenamiento ampliable.",
+        "price": 400,
+        "stock": 20,
+        "category": "Tablets"
+    },
+    {
+        "name": "Stainless Steel Saucepan",
+        "description": "1.5-liter saucepan with heat-resistant handle.",
+        "price": 35,
+        "stock": 20,
+        "category": "Cookware"
+    },
+    {
+        "name": "Non-Stick Frying Pan",
+        "description": "12-inch frying pan with non-stick coating.",
+        "price": 40,
+        "stock": 30,
+        "category": "Cookware"
+    },
+    {
+        "name": "Cast Iron Skillet",
+        "description": "Heavy-duty cast iron skillet, 10-inch diameter.",
+        "price": 50,
+        "stock": 15,
+        "category": "Cookware"
+    },
+    {
+        "name": "Ceramic Casserole Dish",
+        "description": "Oven-safe dish with lid, 2.5-liter capacity.",
+        "price": 45,
+        "stock": 25,
+        "category": "Cookware"
+    },
+    {
+        "name": "Bamboo Salad Bowl",
+        "description": "Eco-friendly bamboo bowl for salads or snacks.",
+        "price": 25,
+        "stock": 40,
+        "category": "Tableware"
+    },
+    {
+        "name": "Porcelain Dinner Plate Set",
+        "description": "Set of 6 white porcelain dinner plates.",
+        "price": 30,
+        "stock": 60,
+        "category": "Tableware"
+    },
+    {
+        "name": "Crystal Wine Glasses",
+        "description": "Set of 4 wine glasses made from high-quality crystal.",
+        "price": 50,
+        "stock": 30,
+        "category": "Tableware"
+    },
+    {
+        "name": "Stainless Steel Cutlery Set",
+        "description": "24-piece cutlery set with mirror finish.",
+        "price": 40,
+        "stock": 50,
+        "category": "Tableware"
+    },
+    {
+        "name": "Chef's Knife",
+        "description": "8-inch professional chef's knife with ergonomic handle.",
+        "price": 60,
+        "stock": 20,
+        "category": "Utensils"
+    },
+    {
+        "name": "Silicone Spatula Set",
+        "description": "Set of 3 heat-resistant silicone spatulas.",
+        "price": 15,
+        "stock": 80,
+        "category": "Utensils"
+    },
+    {
+        "name": "Measuring Cups and Spoons",
+        "description": "Stainless steel measuring set, 8 pieces.",
+        "price": 20,
+        "stock": 100,
+        "category": "Utensils"
+    },
+    {
+        "name": "Garlic Press",
+        "description": "Durable stainless steel garlic press with easy grip.",
+        "price": 12,
+        "stock": 50,
+        "category": "Utensils"
+    },
+    {
+        "name": "Toaster Oven",
+        "description": "Compact toaster oven with adjustable temperature settings.",
+        "price": 70,
+        "stock": 25,
+        "category": "Appliances"
+    },
+    {
+        "name": "Blender with Glass Jar",
+        "description": "600-watt blender with 1.5-liter glass jar.",
+        "price": 80,
+        "stock": 20,
+        "category": "Appliances"
+    },
+    {
+        "name": "Electric Kettle",
+        "description": "1.7-liter kettle with auto shut-off and boil-dry protection.",
+        "price": 30,
+        "stock": 40,
+        "category": "Appliances"
+    },
+    {
+        "name": "Slow Cooker",
+        "description": "6-quart slow cooker with programmable timer.",
+        "price": 50,
+        "stock": 30,
+        "category": "Appliances"
+    },
+    {
+        "name": "Pressure Cooker",
+        "description": "8-quart electric pressure cooker with multiple functions.",
+        "price": 90,
+        "stock": 15,
+        "category": "Appliances"
+    },
+    {
+        "name": "Stainless Steel Whisk",
+        "description": "12-inch whisk with comfortable handle.",
+        "price": 10,
+        "stock": 70,
+        "category": "Utensils"
+    },
+    {
+        "name": "Ceramic Mug Set",
+        "description": "Set of 4 large ceramic mugs with colorful designs.",
+        "price": 25,
+        "stock": 50,
+        "category": "Tableware"
+    },
+    {
+        "name": "Non-Slip Cutting Board",
+        "description": "Large cutting board with juice groove and non-slip edges.",
+        "price": 20,
+        "stock": 60,
+        "category": "Utensils"
+    },
+    {
+        "name": "Mechanical Gaming Keyboard",
+        "description": "RGB-backlit keyboard with customizable keys.",
+        "price": 110,
+        "stock": 40,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Ergonomic Wireless Keyboard",
+        "description": "Compact and lightweight wireless keyboard with long battery life.",
+        "price": 80,
+        "stock": 35,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Programmable Gaming Mouse",
+        "description": "High-precision gaming mouse with 6 programmable buttons.",
+        "price": 60,
+        "stock": 100,
+        "category": "Mice"
+    },
+    {
+        "name": "Silent Click Wireless Mouse",
+        "description": "Comfortable mouse with silent clicks and adjustable DPI.",
+        "price": 30,
+        "stock": 200,
+        "category": "Mice"
+    },
+    {
+        "name": "Curved Gaming Monitor",
+        "description": "32-inch curved monitor with 165Hz refresh rate.",
+        "price": 400,
+        "stock": 25,
+        "category": "Monitors"
+    },
+    {
+        "name": "UltraWide LED Monitor",
+        "description": "34-inch UltraWide LED monitor with HDR10 support.",
+        "price": 500,
+        "stock": 15,
+        "category": "Monitors"
+    },
+    {
+        "name": "Gaming Headset",
+        "description": "Noise-canceling headset with surround sound.",
+        "price": 150,
+        "stock": 50,
+        "category": "Accessories"
+    },
+    {
+        "name": "Adjustable Monitor Stand",
+        "description": "Ergonomic monitor stand with height adjustment.",
+        "price": 70,
+        "stock": 60,
+        "category": "Accessories"
+    },
+    {
+        "name": "Portable External HDD 2TB",
+        "description": "High-speed external hard drive with USB 3.0.",
+        "price": 80,
+        "stock": 120,
+        "category": "Storage"
+    },
+    {
+        "name": "High-Performance NVMe SSD 1TB",
+        "description": "Ultra-fast NVMe SSD for laptops and desktops.",
+        "price": 150,
+        "stock": 40,
+        "category": "Storage"
+    },
+    {
+        "name": "Wireless Mechanical Keyboard",
+        "description": "Tenkeyless mechanical keyboard with Bluetooth.",
+        "price": 100,
+        "stock": 30,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Gaming Keypad",
+        "description": "Compact keypad with macro support for gaming.",
+        "price": 70,
+        "stock": 45,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Trackball Mouse",
+        "description": "Ergonomic mouse with trackball for precision control.",
+        "price": 90,
+        "stock": 70,
+        "category": "Mice"
+    },
+    {
+        "name": "Gaming Mouse Pad XL",
+        "description": "Extended mouse pad with anti-slip rubber base.",
+        "price": 25,
+        "stock": 150,
+        "category": "Accessories"
+    },
+    {
+        "name": "32-inch 4K Monitor",
+        "description": "Ultra HD monitor with HDR10 and 1ms response time.",
+        "price": 300,
+        "stock": 20,
+        "category": "Monitors"
+    },
+    {
+        "name": "49-inch Curved Gaming Monitor",
+        "description": "Super ultrawide gaming monitor with 240Hz refresh rate.",
+        "price": 1000,
+        "stock": 10,
+        "category": "Monitors"
+    },
+    {
+        "name": "Ergonomic Office Chair",
+        "description": "Adjustable chair with memory foam cushions.",
+        "price": 250,
+        "stock": 40,
+        "category": "Accessories"
+    },
+    {
+        "name": "USB-C External SSD 512GB",
+        "description": "Compact SSD with USB-C and 1050 MB/s read speed.",
+        "price": 100,
+        "stock": 90,
+        "category": "Storage"
+    },
+    {
+        "name": "RGB Gaming Chair",
+        "description": "Chair with built-in RGB lighting and lumbar support.",
+        "price": 300,
+        "stock": 15,
+        "category": "Accessories"
+    },
+    {
+        "name": "Optical Mouse",
+        "description": "Simple and reliable optical mouse for everyday use.",
+        "price": 15,
+        "stock": 250,
+        "category": "Mice"
+    },
+    {
+        "name": "10-key Numeric Pad",
+        "description": "External numeric keypad for data entry.",
+        "price": 20,
+        "stock": 50,
+        "category": "Keyboards"
+    },
+    {
+        "name": "Gaming Desk Mat",
+        "description": "Large desk mat for mouse and keyboard.",
+        "price": 30,
+        "stock": 100,
+        "category": "Accessories"
+    },
+    {
+        "name": "External HDD 4TB",
+        "description": "Reliable external hard drive with large capacity.",
+        "price": 150,
+        "stock": 80,
+        "category": "Storage"
+    },
+    {
+        "name": "Midnight Blue Gaming Mouse",
+        "description": "Stylish gaming mouse with RGB and 12000 DPI.",
+        "price": 50,
+        "stock": 120,
+        "category": "Mice"
+    },
+    {
+        "name": "Wireless Numeric Keyboard",
+        "description": "Portable numeric keyboard with Bluetooth connectivity.",
+        "price": 30,
+        "stock": 60,
+        "category": "Keyboards"
+    },
+    {
+        "name": "High-Speed USB Flash Drive 256GB",
+        "description": "Compact flash drive with USB 3.1 support.",
+        "price": 40,
+        "stock": 200,
+        "category": "Storage"
+    },
+    {
+        "name": "1080p Webcam with Microphone",
+        "description": "Full HD webcam with noise-canceling mic for streaming.",
+        "price": 75,
+        "stock": 50,
+        "category": "Accessories"
+    },
+    {
+        "name": "Gaming Monitor with G-Sync",
+        "description": "27-inch monitor with NVIDIA G-Sync technology.",
+        "price": 450,
+        "stock": 30,
+        "category": "Monitors"
+    },
+    {
+        "name": "USB Hub with 7 Ports",
+        "description": "High-speed USB hub for multiple devices.",
+        "price": 35,
+        "stock": 90,
+        "category": "Accessories"
+    },
+    {
+        "name": "Docking Station for Laptops",
+        "description": "Multi-port docking station with HDMI and Ethernet.",
+        "price": 120,
+        "stock": 30,
+        "category": "Accessories"
+    },
+    {
+        "name": "Triple Monitor Arm Mount",
+        "description": "Adjustable monitor arm for triple display setup.",
+        "price": 200,
+        "stock": 20,
+        "category": "Accessories"
+    },
+    {
+        "name": "External SSD 2TB",
+        "description": "Portable SSD with fast data transfer speeds.",
+        "price": 300,
+        "stock": 40,
+        "category": "Storage"
+    },
+    {
+        "name": "Wireless Ergonomic Mouse",
+        "description": "Ergonomic wireless mouse with precision scroll.",
+        "price": 70,
+        "stock": 80,
+        "category": "Mice"
+    },
+    {
+        "name": "Foldable Keyboard",
+        "description": "Compact and foldable keyboard for easy transport.",
+        "price": 45,
+        "stock": 100,
+        "category": "Keyboards"
+    },
+    {
+        "name": "USB-C External HDD 5TB",
+        "description": "Large-capacity external hard drive with USB-C.",
+        "price": 180,
+        "stock": 25,
+        "category": "Storage"
+    },
+    {
+        "name": "Wireless RGB Gaming Headset",
+        "description": "Gaming headset with wireless connectivity and RGB.",
+        "price": 170,
+        "stock": 35,
+        "category": "Accessories"
+    },
+    {
+        "name": "Ultra-Thin Wireless Keyboard",
+        "description": "Sleek wireless keyboard with rechargeable battery.",
+        "price": 60,
+        "stock": 40,
+        "category": "Keyboards"
+    },
+    {
+        "name": "High-Speed Gaming Router",
+        "description": "Wi-Fi 6 gaming router with low-latency performance.",
+        "price": 250,
+        "stock": 15,
+        "category": "Accessories"
+    }
+]

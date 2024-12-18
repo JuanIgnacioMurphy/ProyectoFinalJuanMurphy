@@ -1,62 +1,73 @@
-import productManager from "../managers/products.manager.js";
+import * as services from '../services/product.services.js';
 
-export const getAllProducts = async (req, res, next) => {
+export const getAll = async (req, res, next) => {
 try {
-    const response = await productManager.getAllProducts();
-    res.json(response)
+        const { page = 1, limit = 10, category = '', sort = '' } = req.query;
+        const response = await services.getAll(page, limit, category, sort);
+
+        res.json({
+            status: "success",
+            payload: response.docs, 
+            totalPages: response.totalPages,
+            prevPage: response.hasPrevPage ? response.page - 1 : null,
+            nextPage: response.hasNextPage ? response.page + 1 : null,
+            page: response.page,
+            hasPrevPage: response.hasPrevPage,
+            hasNextPage: response.hasNextPage,
+            prevLink: response.hasPrevPage ? `http://localhost:8080/products?page=${response.page - 1}&limit=${limit}&category=${category}&sort=${sort}` : null,
+            nextLink: response.hasNextPage ? `http://localhost:8080/products?page=${response.page + 1}&limit=${limit}&category=${category}&sort=${sort}` : null,
+        });
+    
 } catch(error) {
     next(error);
 }
 
 };
 
-export const getProductById = async (req, res, next) => {
+export const getById = async (req, res, next) => {
     try {
         const { id } = req.params;
-        const response = await productManager.getProductById(id);
-        if(!response) {
-            throw new Error('Product not found');
-        }
+        const response = await services.getById(id);
         res.json(response)
     } catch(error) {
         next(error);
     }
 };
 
-export const createProduct = async (req, res, next) => {
+export const create = async (req, res, next) => {
     try {
-        const newProduct = req.body;
-        const response = await productManager.createProduct(newProduct);
-        if (!response) {
-            throw new Error('Error in validation');
-        }
-        res.status(201).json(response);
+        const newProduct = await services.create(req.body);
+        res.status(201).json(newProduct);
     } catch(error) {
         next(error);
     }
 };
 
-export const updateProduct = async (req, res, next) => {
+export const createProductsFromFile = async (req, res, next) => {
     try {
-        const { id } = req.params;
-        const updatedProduct = req.body;
-        const response = await productManager.updateProduct(id, updatedProduct);
-        if (!response) {
-            throw new Error('Product not found');
-        }
-        res.json(response);
+        // console.log('Acá llega');
+
+        const newProducts = await services.createProductsFromFile();
+        res.json(`${newProducts} created successfully`);
     } catch(error) {
         next(error);
     }
 };
 
-export const deleteProduct = async (req, res, next) => {
+export const update = async (req, res, next) => {
     try {
         const { id } = req.params;
-        const response = await productManager.deleteProduct(id);
-        if (!response) {
-            throw new Error('Product not found');
-        }
+        const productUpdated = await services.update(id, req.body);
+        res.json(productUpdated);
+    } catch(error) {
+        next(error);
+    }
+};
+
+export const remove = async (req, res, next) => {
+    try {
+        const { id } = req.params;
+        await services.remove(id);
         res.json({message: 'Product deleted successfully'});
     } catch(error) {
         next(error);
